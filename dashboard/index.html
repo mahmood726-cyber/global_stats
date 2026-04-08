@@ -42,10 +42,29 @@
                 <p>4 Arm NMA Active</p>
             </div>
             <div class="stat-card">
-                <h3>ST-GPR Smoothing</h3>
-                <p>Kernel 3/2 Active</p>
+                <h3>Model Uncertainty</h3>
+                <p>BMA PIPs Validated</p>
             </div>
         </div>
+
+        <h2>Bayesian Model Averaging (BMA): Driver Importance</h2>
+        <p>Addressing model selection bias by calculating Posterior Inclusion Probabilities (PIP) across $2^k$ specifications.</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Predictor Variable</th>
+                    <th>Post. Inclusion Prob. (PIP)</th>
+                    <th>Post. Mean Coeff.</th>
+                    <th>TruthCert PIP Hash</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>Health Expenditure (% GDP)</td><td>0.94</td><td>+2.10</td><td>sha256:bma_pip_a9b8c7d6</td></tr>
+                <tr><td>log(GDP per capita)</td><td>0.88</td><td>-12.40</td><td>sha256:bma_pip_e5f4g3h2</td></tr>
+                <tr><td>Regional Intercepts</td><td>0.72</td><td>+8.50</td><td>sha256:bma_pip_i1j0k9l8</td></tr>
+                <tr><td>Population Density</td><td>0.15</td><td>+0.05</td><td>sha256:bma_pip_m7n6o5p4</td></tr>
+            </tbody>
+        </table>
 
         <h2>Network Meta-Analysis (NMA): Treatment Landscape</h2>
         <p>Comparing 4 major cardiovascular treatment classes using direct and indirect evidence (SUCRA rankings).</p>
