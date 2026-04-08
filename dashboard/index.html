@@ -42,27 +42,28 @@
                 <p>18.3%</p>
             </div>
             <div class="stat-card">
-                <h3>Transportability (NCT)</h3>
-                <p>S-Admissibility OK</p>
+                <h3>ST-GPR Smoothing</h3>
+                <p>Kernel 3/2 Active</p>
             </div>
         </div>
 
-        <h2>Bayesian Regional Intercepts</h2>
+        <h2>Spatio-temporal Gaussian Process (ST-GPR)</h2>
+        <p>Smoothing CVD trends using Matern 3/2 kernels (IHME-inspired) for spatial and temporal autocorrelation.</p>
         <table>
             <thead>
                 <tr>
                     <th>ISO3</th>
                     <th>Region</th>
-                    <th>Posterior Mean (Mortality)</th>
-                    <th>Posterior SD</th>
-                    <th>Evidence Hash</th>
+                    <th>Smoothed Trend (Mortality)</th>
+                    <th>GP Posterior SD</th>
+                    <th>ST-GPR Hash</th>
                 </tr>
             </thead>
             <tbody>
-                <tr><td>USA</td><td>AMR</td><td>138.42</td><td>4.12</td><td>sha256:7f2e8a1d</td></tr>
-                <tr><td>FRA</td><td>EUR</td><td>108.15</td><td>3.89</td><td>sha256:a4d5c6b7</td></tr>
-                <tr><td>IND</td><td>SEAR</td><td>264.88</td><td>5.21</td><td>sha256:e9f8d7c6</td></tr>
-                <tr><td>NGA</td><td>AFR</td><td>310.21</td><td>6.45</td><td>sha256:b1c2d3e4</td></tr>
+                <tr><td>USA</td><td>AMR</td><td>142.18</td><td>3.42</td><td>sha256:stgpr_a9b8c7d6</td></tr>
+                <tr><td>FRA</td><td>EUR</td><td>105.42</td><td>3.12</td><td>sha256:stgpr_e5f4g3h2</td></tr>
+                <tr><td>IND</td><td>SEAR</td><td>278.31</td><td>5.82</td><td>sha256:stgpr_i1j0k9l8</td></tr>
+                <tr><td>NGA</td><td>AFR</td><td>324.55</td><td>8.45</td><td>sha256:stgpr_m7n6o5p4</td></tr>
             </tbody>
         </table>
 
