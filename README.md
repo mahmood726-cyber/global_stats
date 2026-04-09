@@ -1,5 +1,7 @@
 # global_stats: Global Cardiovascular Bayesian Analysis
-**E156 Micro-Paper Research Pipeline**
+**E156 Micro-Paper Research Pipeline
+
+**Live Dashboard:** [https://mahmood726-cyber.github.io/global_stats/](https://mahmood726-cyber.github.io/global_stats/)**
 
 ## E156 Protocol (Timestamped: 2026-04-08)
 1. **OA-Inflow:** IHME GBD 2019, WHO GHO, World Bank WDI, ClinicalTrials.gov (Open Access only).
